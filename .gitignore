@@ -1,0 +1,79 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+*.egg
+.installed.cfg
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual environments
+.env
+.venv
+venv/
+env/
+ENV/
+
+# --- IDE / OS ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- PyTorch / ML artifacts ---
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.npy
+*.onnx
+*.ts
+
+# Training & experiment outputs
+save/
+save_fix/
+load/
+folders/
+experiments/
+results/
+checkpoints/
+runs/
+wandb/
+vis/
+output/
+param_*/
+aligned_norm/
+log.txt
+
+# TensorBoard
+tensorboard/
+**/events.out.tfevents.*
+TMM/ablation/
+
+# --- Data (keep code under datasets/, ignore local data) ---
+Data/
+data/
+home/
+
+# --- Third-party / vendored ---
+segment-anything/.git/
+segment-anything/**/node_modules/
+segment-anything/yarn.lock
+segment-anything/package-lock.json
+
+# --- Demo / frontend (segment-anything) ---
+**/node_modules/
+yarn.lock
+package-lock.json
